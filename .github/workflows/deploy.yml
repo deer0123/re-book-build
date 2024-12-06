@@ -54,11 +54,11 @@ jobs:
             # 기존에 실행 중인 도커 컨테이너를 중지합니다.
 
             echo "Remove Existing Docker image..."
-            docker rmi stephen4951/order-service:latest || true
+            docker rmi deer0123/re_book:latest || true
             # 이전에 다운로드된 도커 이미지를 삭제합니다.
 
             echo "Pulling Docker image..."
-            docker pull stephen4951/order-service:latest
+            docker pull deer0123/re_book:latest
             # 최신 도커 이미지를 다시 pull합니다.
 
             echo "Starting new container..."
